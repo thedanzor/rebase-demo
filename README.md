@@ -41,3 +41,9 @@ This guide should be able to help you with understanding the flow of rebase, but
 ##NOTE2:## When using rebase VIM / NANO or your inline editor will appear, by default it is usually VIM. In this case you can press `ESC` key, then `:` key, followed by `wq` (write and quit) and `ENTER` key. to sucessfully confirm the changes - this screen appears because during a rebase you can also alter the git commit messages if you would like too. This can be useful if you have resolved an issue and changed the commit.
 
 TASK 2 will appear after sucessfully rebasing.
+
+# Task 2 - Rebasing your changes and resolving the merge conflict
+
+You have now successfully rebased your changes onto of master, then merged them back into the master branch.
+
+We will now checkout feature/task2 and follow the same steps as above, but this time we will resolve the merge conflict.
