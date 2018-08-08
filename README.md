@@ -1,4 +1,3 @@
-
 # Introduction
 
 To summarize the difference between Rebasing and Merging:
