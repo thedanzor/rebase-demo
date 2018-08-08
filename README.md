@@ -47,3 +47,11 @@ TASK 2 will appear after sucessfully rebasing.
 You have now successfully rebased your changes onto of master, then merged them back into the master branch.
 
 We will now checkout feature/task2 and follow the same steps as above, but this time we will resolve the merge conflict.
+
+When resolving a conflict during a rebase, you follow pretty much the same flow as with merge conflicts.
+
+* You will get the error / warning message of the conflict
+* by using `git status` you can see the affected files
+* you can then use your editor of chose to resolve the issues.
+* You then stage the files using `git add .` or `git add <PATH_TO_FILE>`
+* then continue the process for rebase by using `git rebase --continue` instead of doing `git merge --continue` that you're used to using before. Because this time we are rebasing and not merging. 
