@@ -44,8 +44,12 @@ We will now `checkout feature/task2` and follow the same steps as above, but thi
 
 ##You have successfully rebased and resolved the merge conflicts##
 
-# Task 3 - Rebasing the release branches
+# We are done
 
-We have successfully performed 2 of the most common cases with rebasing, we will now rebase our release branches.
+This process has shown you the basics of rebase, the important part is understanding the impact and what is happening under the hood - That it is changing the history and the hashes of the commits.
 
-In this case we will assume master is the HEAD branch, and our release branches need to be rebased ontop of each other and master finally rebasing ontop of them. This means master will be the latest branch in this process.
+I would advise to make sure important branches like dev / master cannot be pushed too directly - to avoid people accidently force pushing to the wrong branch.
+
+The rebasing of release branches is done no differently then above, but probably best left to people with more experience in rebasing.
+
+Something you can do to make your git workflow easier, is squashing your commits when your done. The history of your changes remains intact but it's then part of bigger and fewer commits - or even a single big commit if you would like.
