@@ -28,8 +28,17 @@ Lets get used to using rebase and seeing how it works, there is a branch feature
 
     `git checkout feature/task1`
 
-    `git rebase -i master`
+    `git rebase -i master` // The -i after rebase is for INTERACTIVE, this allows us to better control and resolve any potential conflicts that may arise when rebasing.
 
     `git checkout master`
 
     `git merge feature/task1`
+
+
+##NOTE:## I am only writing examples for the terminal and not sourcetree - this is because i am not that trusting of sourcetree and have seen weird targeting and evening locking as a result of sourcetree.
+
+This guide should be able to help you with understanding the flow of rebase, but you may need to take that approach and use it within your own tooling.
+
+##NOTE2:## When using rebase VIM / NANO or your inline editor will appear, by default it is usually VIM. In this case you can press `ESC` key, then `:` key, followed by `wq` (write and quit) and `ENTER` key. to sucessfully confirm the changes - this screen appears because during a rebase you can also alter the git commit messages if you would like too. This can be useful if you have resolved an issue and changed the commit.
+
+TASK 2 will appear after sucessfully rebasing.
