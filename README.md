@@ -40,12 +40,12 @@ Lets get used to using rebase and seeing how it works, there is a branch feature
 
 You have now successfully rebased your changes onto of master, then merged them back into the master branch.
 
-We will now checkout feature/task2 and follow the same steps as above, but this time we will resolve the merge conflict.
+We will now `checkout feature/task2` and follow the same steps as above, but this time we will resolve the merge conflict.
 
 ##You have successfully rebased and resolved the merge conflicts##
 
 # Task 3 - Rebasing the release branches
 
-We have successfully performed 2 of the most common cases with rebasing, we will now rebase our release branches. 
+We have successfully performed 2 of the most common cases with rebasing, we will now rebase our release branches.
 
 In this case we will assume master is the HEAD branch, and our release branches need to be rebased ontop of each other and master finally rebasing ontop of them. This means master will be the latest branch in this process.
